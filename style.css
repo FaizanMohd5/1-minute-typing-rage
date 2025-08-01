@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  background-color: #111;
+  color: #eee;
+  text-align: center;
+  margin-top: 50px;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+#word {
+  font-size: 24px;
+  margin: 20px 0;
+}
+#input {
+  padding: 10px;
+  width: 100%;
+  font-size: 18px;
+}
+#timer {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+#stats {
+  margin-top: 20px;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.explode {
+  animation: shake 0.5s infinite;
+  color: red;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px); }
+  50% { transform: translate(-1px, -1px); }
+  100% { transform: translate(1px, -1px); }
+}
